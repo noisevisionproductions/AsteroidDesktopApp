@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane style="-fx-background-image: url('file:/C:/Users/noise/Desktop/projects/asteroidsapplication/src/main/java/com/asteroids/images/background.jpg'); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0">
+         <children>
+            <Button fx:id="continueButton" blendMode="SRC_ATOP" disable="true" focusTraversable="false" layoutX="565.0" layoutY="495.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="151.0" stylesheets="@../CSS/button.css" text="Continue" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Text fx:id="gamePausedText" boundsType="VISUAL" cache="true" cacheHint="SPEED" depthTest="DISABLE" disable="true" layoutX="316.0" layoutY="210.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME PAUSED" textAlignment="CENTER" textOrigin="CENTER" visible="false" wrappingWidth="646.296875">
+               <font>
+                  <Font size="96.0" />
+               </font>
+               <effect>
+                  <Reflection fraction="0.76" topOpacity="0.42" />
+               </effect>
+               <fill>
+                  <LinearGradient cycleMethod="REFLECT" endX="0.6777251184834123" endY="0.933649289099526" startX="0.3981042654028436">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2854532301425934" green="0.3146016001701355" blue="0.8684210777282715" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.44630872483221473">
+                           <color>
+                              <Color red="0.8684210777282715" green="0.08040935546159744" blue="0.08040935546159744" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.8056760517269601">
+                           <color>
+                              <Color red="0.7599999904632568" green="0.2679542899131775" blue="0.25839999318122864" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.021320663392543793" green="0.06375893205404282" blue="0.6578947305679321" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Text>
+            <Text fx:id="gameOverText" boundsType="VISUAL" cache="true" cacheHint="SPEED" depthTest="DISABLE" disable="true" layoutX="364.0" layoutY="211.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME OVER" textAlignment="CENTER" textOrigin="CENTER" visible="false" wrappingWidth="547.13671875" AnchorPane.bottomAnchor="473.765625" AnchorPane.rightAnchor="378.939453125" AnchorPane.topAnchor="175.765625">
+               <font>
+                  <Font size="96.0" />
+               </font>
+               <effect>
+                  <Reflection fraction="0.76" topOpacity="0.42" />
+               </effect>
+               <fill>
+                  <LinearGradient cycleMethod="REFLECT" endX="0.6777251184834123" endY="0.933649289099526" startX="0.3981042654028436">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.2854532301425934" green="0.3146016001701355" blue="0.8684210777282715" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.44630872483221473">
+                           <color>
+                              <Color red="0.8684210777282715" green="0.08040935546159744" blue="0.08040935546159744" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.8056760517269601">
+                           <color>
+                              <Color red="0.7599999904632568" green="0.2679542899131775" blue="0.25839999318122864" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.021320663392543793" green="0.06375893205404282" blue="0.6578947305679321" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Text>
+            <Text fx:id="endScore" fill="#940606" layoutX="526.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" visible="false" wrappingWidth="228.13671875">
+               <font>
+                  <Font name="Segoe UI Semibold Italic" size="30.0" />
+               </font>
+            </Text>
+            <Button fx:id="restartButton" blendMode="SRC_ATOP" disable="true" focusTraversable="false" layoutX="378.0" layoutY="495.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="151.0" stylesheets="@../CSS/button.css" text="Restart" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="mainMenuButton" alignment="CENTER" blendMode="SRC_ATOP" disable="true" focusTraversable="false" layoutX="750.0" layoutY="495.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="151.0" stylesheets="@../CSS/button.css" text="Main Menu" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="easyButton" alignment="CENTER" contentDisplay="TOP" focusTraversable="false" layoutX="208.0" layoutY="307.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="270.0" stylesheets="@../CSS/buttongreen.css" text="Easy" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="mediumButton" alignment="CENTER" blendMode="SRC_ATOP" contentDisplay="TOP" focusTraversable="false" layoutX="514.0" layoutY="307.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="270.0" stylesheets="@../CSS/buttonyellow.css" text="Medium" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="difficultyLabel" alignment="BOTTOM_RIGHT" layoutX="516.0" layoutY="120.0" text="Choose Difficulty" textAlignment="CENTER" textFill="#769dc2" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font name="Segoe Fluent Icons" size="36.0" />
+               </font>
+               <effect>
+                  <MotionBlur angle="67.76" radius="3.33" />
+               </effect>
+            </Label>
+            <Button fx:id="hardButton" alignment="CENTER" blendMode="SRC_ATOP" contentDisplay="TOP" focusTraversable="false" layoutX="819.0" layoutY="307.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="270.0" stylesheets="@../CSS/buttonred.css" text="Hard" textAlignment="CENTER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

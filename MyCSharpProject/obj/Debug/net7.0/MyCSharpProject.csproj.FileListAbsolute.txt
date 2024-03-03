@@ -1,0 +1,15 @@
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\bin\Debug\net7.0\MyCSharpProject.exe
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\bin\Debug\net7.0\MyCSharpProject.deps.json
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\bin\Debug\net7.0\MyCSharpProject.runtimeconfig.json
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\bin\Debug\net7.0\MyCSharpProject.dll
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\bin\Debug\net7.0\MyCSharpProject.pdb
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\obj\Debug\net7.0\MyCSharpProject.csproj.AssemblyReference.cache
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\obj\Debug\net7.0\MyCSharpProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\obj\Debug\net7.0\MyCSharpProject.AssemblyInfoInputs.cache
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\obj\Debug\net7.0\MyCSharpProject.AssemblyInfo.cs
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\obj\Debug\net7.0\MyCSharpProject.csproj.CoreCompileInputs.cache
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\obj\Debug\net7.0\MyCSharpProject.dll
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\obj\Debug\net7.0\refint\MyCSharpProject.dll
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\obj\Debug\net7.0\MyCSharpProject.pdb
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\obj\Debug\net7.0\MyCSharpProject.genruntimeconfig.cache
+C:\Users\noise\Desktop\projects\asteroidsapplication\MyCSharpProject\obj\Debug\net7.0\ref\MyCSharpProject.dll

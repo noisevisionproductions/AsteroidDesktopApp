@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AsteroidsApplication",
+            "request": "launch",
+            "mainClass": "com.asteroids/com.asteroids.AsteroidsApplication",
+            "projectName": "asteroidsapplication"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/MyCSharpProject/bin/Debug/net7.0/MyCSharpProject.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/MyCSharpProject",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

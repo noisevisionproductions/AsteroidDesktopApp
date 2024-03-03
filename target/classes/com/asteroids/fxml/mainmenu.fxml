@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.MotionBlur?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane alignment="BOTTOM_LEFT" style="-fx-background-size: cover; -fx-background-image: url('file:/C:/Users/noise/Desktop/projects/asteroidsapplication/src/main/java/com/asteroids/images/background.jpg');" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.asteroids.Scenes.SceneManager">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="224.0" prefWidth="345.0" StackPane.alignment="TOP_LEFT">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="81.0" layoutY="70.0" opacity="0.65" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\noise\Desktop\projects\asteroidsapplication\src\main\java\com\asteroids\images\tutorial\down.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="26.0" layoutY="25.0" opacity="0.65" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\noise\Desktop\projects\asteroidsapplication\src\main\java\com\asteroids\images\tutorial\left.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="81.0" layoutY="25.0" opacity="0.65" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\noise\Desktop\projects\asteroidsapplication\src\main\java\com\asteroids\images\tutorial\up.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="136.0" layoutY="25.0" opacity="0.65" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\noise\Desktop\projects\asteroidsapplication\src\main\java\com\asteroids\images\tutorial\right.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="100.0" fitWidth="160.0" layoutX="26.0" layoutY="140.0" opacity="0.65" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="C:\Users\noise\Desktop\projects\asteroidsapplication\src\main\java\com\asteroids\images\tutorial\space.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="211.0" layoutY="57.0" opacity="0.65" text="Move The Ship" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Ebrima Bold" size="22.0" />
+               </font>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Label>
+            <Label layoutX="211.0" layoutY="145.0" opacity="0.65" text="Shoot" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Ebrima Bold" size="22.0" />
+               </font>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" StackPane.alignment="CENTER">
+         <children>
+            <VBox accessibleRole="CHECK_BOX" alignment="CENTER" blendMode="SRC_ATOP" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="720.0" prefWidth="1280.0" spacing="20.0" style="-fx-background-size: cover;">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="TOP" focusTraversable="false" mnemonicParsing="false" onAction="#switchToGameState" prefHeight="80.0" prefWidth="347.0" stylesheets="@../CSS/button.css" text="New Game" textAlignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" contentDisplay="TOP" focusTraversable="false" mnemonicParsing="false" prefHeight="80.0" prefWidth="347.0" stylesheets="@../CSS/button.css" text="Scoreboard" textAlignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" contentDisplay="TOP" focusTraversable="false" mnemonicParsing="false" prefHeight="80.0" prefWidth="347.0" stylesheets="@../CSS/button.css" text="Options" textAlignment="CENTER">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button alignment="CENTER" contentDisplay="BOTTOM" focusTraversable="false" mnemonicParsing="false" onAction="#quitGame" prefHeight="80.0" prefWidth="347.0" stylesheets="@../CSS/button.css" text="Quit Game" textAlignment="CENTER">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+            <Label alignment="BOTTOM_RIGHT" layoutX="545.0" layoutY="70.0" text="MAIN MENU" textAlignment="CENTER" textFill="#769dc2" textOverrun="CENTER_WORD_ELLIPSIS">
+               <font>
+                  <Font name="Segoe Fluent Icons" size="36.0" />
+               </font>
+               <effect>
+                  <MotionBlur angle="67.76" radius="3.33" />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="anchorPaneOfImages" layoutX="200.0" layoutY="200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="313.0" prefWidth="288.0">
+         <children>
+            <Button fx:id="choosePreviousImage" alignment="CENTER" focusTraversable="false" layoutX="33.0" layoutY="232.0" mnemonicParsing="false">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="chooseNextImage" alignment="CENTER" focusTraversable="false" layoutX="191.0" layoutY="232.0" mnemonicParsing="false">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="53.0" layoutY="20.0" opacity="0.65" text="Choose Your Ship" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Ebrima Bold" size="22.0" />
+               </font>
+               <effect>
+                  <Lighting>
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
